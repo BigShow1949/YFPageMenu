@@ -145,7 +145,7 @@
     // 设置跟踪器的颜色
     pageMenu.tracker.backgroundColor = [UIColor redColor];
     // 设置跟踪器的高度，与pageMenu同高，这样半径就可以跟pageMenu的圆角半径一致，实际上这里设置的半径是无效的，圆角矩形内部会根据高度自动设置圆角
-    [pageMenu setTrackerHeight:pageMenuH cornerRadius:pageMenuH*0.5];
+    [pageMenu.tracker setTrackerHeight:pageMenuH cornerRadius:pageMenuH*0.5];
     // 排列方式
     pageMenu.permutationWay = YFPageMenuPermutationWayNotScrollAdaptContent;
     pageMenu.dividingLine.hidden = YES;
@@ -219,7 +219,7 @@
     [pageMenu setItems:self.dataArr selectedItemIndex:1];
     // 不可滑动的等宽排列
     pageMenu.permutationWay = YFPageMenuPermutationWayNotScrollEqualWidths;
-    pageMenu.trackerWidth = 20;
+    pageMenu.tracker.trackerWidth = 20;
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果
@@ -255,7 +255,7 @@
     YFPageMenu *pageMenu = [YFPageMenu pageMenuWithFrame:CGRectMake(0, NaviH, screenW, pageMenuH) trackerStyle:YFPageMenuTrackerStyleLine];
     // 传递数组，默认选中第2个
     [pageMenu setItems:self.dataArr selectedItemIndex:0];
-    pageMenu.trackerFollowingMode = YFPageMenuTrackerFollowingModeAlways;
+    pageMenu.tracker.trackerFollowingMode = YFPageMenuTrackerFollowingModeAlways;
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果
@@ -272,7 +272,7 @@
     YFPageMenu *pageMenu = [YFPageMenu pageMenuWithFrame:CGRectMake(0, NaviH, screenW, pageMenuH) trackerStyle:YFPageMenuTrackerStyleLine];
     // 传递数组，默认选中第2个
     [pageMenu setItems:self.dataArr selectedItemIndex:0];
-    pageMenu.trackerFollowingMode = YFPageMenuTrackerFollowingModeEnd;
+    pageMenu.tracker.trackerFollowingMode = YFPageMenuTrackerFollowingModeEnd;
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果
@@ -289,7 +289,7 @@
     YFPageMenu *pageMenu = [YFPageMenu pageMenuWithFrame:CGRectMake(0, NaviH, screenW, pageMenuH) trackerStyle:YFPageMenuTrackerStyleLine];
     // 传递数组，默认选中第2个
     [pageMenu setItems:self.dataArr selectedItemIndex:0];
-    pageMenu.trackerFollowingMode = YFPageMenuTrackerFollowingModeHalf;
+    pageMenu.tracker.trackerFollowingMode = YFPageMenuTrackerFollowingModeHalf;
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果
@@ -405,7 +405,7 @@
     pageMenu.itemTitleFont = [UIFont  boldSystemFontOfSize:17];
     pageMenu.selectedItemTitleColor = [UIColor blackColor];
     pageMenu.unSelectedItemTitleColor = [UIColor grayColor];
-    pageMenu.trackerWidth = 20;
+    pageMenu.tracker.trackerWidth = 20;
     // 设置第一个按钮后面的自定义间距为60，增大第一个和第二个按钮之间的间距，腾出空间方便在第一个按钮的后面放置一个副标题
     [pageMenu setCustomSpacing:60 afterItemAtIndex:1];
     pageMenu.delegate = self;
