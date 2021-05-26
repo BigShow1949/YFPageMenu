@@ -27,12 +27,12 @@
 		095E9C211FA6F8CC0097A889 /* ThidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E9C171FA6F8CC0097A889 /* ThidViewController.m */; };
 		6A8808C1213D361D00C3553F /* mateor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A8808BF213D361C00C3553F /* mateor.jpg */; };
 		6A9270122179BCF400831045 /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9270102179BCF400831045 /* JSBadgeView.m */; };
-		C20E64FE265E22EC004BD51E /* YFPageMenuButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E64F2265E22EC004BD51E /* YFPageMenuButtonItem.m */; };
-		C20E64FF265E22EC004BD51E /* YFPageMenuTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E64F4265E22EC004BD51E /* YFPageMenuTracker.m */; };
-		C20E6500265E22EC004BD51E /* YFPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E64F5265E22EC004BD51E /* YFPageMenu.m */; };
-		C20E6501265E22EC004BD51E /* YFPageMenuLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E64F6265E22EC004BD51E /* YFPageMenuLine.m */; };
-		C20E6502265E22EC004BD51E /* YFPageMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E64F8265E22EC004BD51E /* YFPageMenuButton.m */; };
-		C20E6503265E22EC004BD51E /* YFPageMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E64FD265E22EC004BD51E /* YFPageMenuScrollView.m */; };
+		C288EF7F265E386300AABB2D /* YFPageMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C288EF78265E386300AABB2D /* YFPageMenuScrollView.m */; };
+		C288EF80265E386300AABB2D /* YFPageMenuTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C288EF79265E386300AABB2D /* YFPageMenuTracker.m */; };
+		C288EF81265E386300AABB2D /* YFPageMenuLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C288EF7A265E386300AABB2D /* YFPageMenuLine.m */; };
+		C288EF82265E386300AABB2D /* YFPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C288EF7B265E386300AABB2D /* YFPageMenu.m */; };
+		C288EF83265E386300AABB2D /* YFPageMenuButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C288EF7C265E386300AABB2D /* YFPageMenuButtonItem.m */; };
+		C288EF84265E386300AABB2D /* YFPageMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C288EF7D265E386300AABB2D /* YFPageMenuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,30 +92,18 @@
 		6A8808BF213D361C00C3553F /* mateor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mateor.jpg; sourceTree = "<group>"; };
 		6A9270102179BCF400831045 /* JSBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBadgeView.m; sourceTree = "<group>"; };
 		6A9270112179BCF400831045 /* JSBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBadgeView.h; sourceTree = "<group>"; };
-		C20E64F2265E22EC004BD51E /* YFPageMenuButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenuButtonItem.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuButtonItem.m"; sourceTree = "<group>"; };
-		C20E64F3265E22EC004BD51E /* YFPageMenuTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenuTracker.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuTracker.h"; sourceTree = "<group>"; };
-		C20E64F4265E22EC004BD51E /* YFPageMenuTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenuTracker.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuTracker.m"; sourceTree = "<group>"; };
-		C20E64F5265E22EC004BD51E /* YFPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenu.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenu.m"; sourceTree = "<group>"; };
-		C20E64F6265E22EC004BD51E /* YFPageMenuLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenuLine.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuLine.m"; sourceTree = "<group>"; };
-		C20E64F7265E22EC004BD51E /* YFPageMenuScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenuScrollView.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuScrollView.h"; sourceTree = "<group>"; };
-		C20E64F8265E22EC004BD51E /* YFPageMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenuButton.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuButton.m"; sourceTree = "<group>"; };
-		C20E64F9265E22EC004BD51E /* YFPageMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenuButton.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuButton.h"; sourceTree = "<group>"; };
-		C20E64FA265E22EC004BD51E /* YFPageMenuLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenuLine.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuLine.h"; sourceTree = "<group>"; };
-		C20E64FB265E22EC004BD51E /* YFPageMenuButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenuButtonItem.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuButtonItem.h"; sourceTree = "<group>"; };
-		C20E64FC265E22EC004BD51E /* YFPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenu.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenu.h"; sourceTree = "<group>"; };
-		C20E64FD265E22EC004BD51E /* YFPageMenuScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenuScrollView.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuScrollView.m"; sourceTree = "<group>"; };
-		C288EF60265E37CF00AABB2D /* YFPageMenuTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuTracker.h; sourceTree = "<group>"; };
-		C288EF61265E37CF00AABB2D /* YFPageMenuButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuButtonItem.h; sourceTree = "<group>"; };
-		C288EF62265E37CF00AABB2D /* YFPageMenuScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuScrollView.h; sourceTree = "<group>"; };
-		C288EF63265E37D000AABB2D /* YFPageMenuScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuScrollView.m; sourceTree = "<group>"; };
-		C288EF64265E37D000AABB2D /* YFPageMenuLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuLine.m; sourceTree = "<group>"; };
-		C288EF65265E37D000AABB2D /* YFPageMenuTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuTracker.m; sourceTree = "<group>"; };
-		C288EF66265E37D000AABB2D /* YFPageMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuButton.m; sourceTree = "<group>"; };
-		C288EF67265E37D000AABB2D /* YFPageMenuLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuLine.h; sourceTree = "<group>"; };
-		C288EF68265E37D000AABB2D /* YFPageMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenu.m; sourceTree = "<group>"; };
-		C288EF69265E37D000AABB2D /* YFPageMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuButton.h; sourceTree = "<group>"; };
-		C288EF6A265E37D000AABB2D /* YFPageMenuButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuButtonItem.m; sourceTree = "<group>"; };
-		C288EF6B265E37D100AABB2D /* YFPageMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenu.h; sourceTree = "<group>"; };
+		C288EF73265E386300AABB2D /* YFPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPageMenu.h; sourceTree = "<group>"; };
+		C288EF74265E386300AABB2D /* YFPageMenuLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPageMenuLine.h; sourceTree = "<group>"; };
+		C288EF75265E386300AABB2D /* YFPageMenuTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPageMenuTracker.h; sourceTree = "<group>"; };
+		C288EF76265E386300AABB2D /* YFPageMenuButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPageMenuButtonItem.h; sourceTree = "<group>"; };
+		C288EF77265E386300AABB2D /* YFPageMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPageMenuButton.h; sourceTree = "<group>"; };
+		C288EF78265E386300AABB2D /* YFPageMenuScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuScrollView.m; sourceTree = "<group>"; };
+		C288EF79265E386300AABB2D /* YFPageMenuTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuTracker.m; sourceTree = "<group>"; };
+		C288EF7A265E386300AABB2D /* YFPageMenuLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuLine.m; sourceTree = "<group>"; };
+		C288EF7B265E386300AABB2D /* YFPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPageMenu.m; sourceTree = "<group>"; };
+		C288EF7C265E386300AABB2D /* YFPageMenuButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuButtonItem.m; sourceTree = "<group>"; };
+		C288EF7D265E386300AABB2D /* YFPageMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuButton.m; sourceTree = "<group>"; };
+		C288EF7E265E386300AABB2D /* YFPageMenuScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPageMenuScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,23 +154,11 @@
 		091A68741FA1CAC100DAA561 /* YFPageMenu */ = {
 			isa = PBXGroup;
 			children = (
-				C288EF5F265E37CA00AABB2D /* YFPageMenu */,
+				C288EF72265E386300AABB2D /* YFPageMenu */,
 				091A687B1FA1CAC100DAA561 /* ViewController.h */,
 				091A687C1FA1CAC100DAA561 /* ViewController.m */,
 				091229F71FA5F13000AEE295 /* ParentViewController.h */,
 				091229F81FA5F13000AEE295 /* ParentViewController.m */,
-				C20E64FC265E22EC004BD51E /* YFPageMenu.h */,
-				C20E64F5265E22EC004BD51E /* YFPageMenu.m */,
-				C20E64F9265E22EC004BD51E /* YFPageMenuButton.h */,
-				C20E64F8265E22EC004BD51E /* YFPageMenuButton.m */,
-				C20E64FB265E22EC004BD51E /* YFPageMenuButtonItem.h */,
-				C20E64F2265E22EC004BD51E /* YFPageMenuButtonItem.m */,
-				C20E64FA265E22EC004BD51E /* YFPageMenuLine.h */,
-				C20E64F6265E22EC004BD51E /* YFPageMenuLine.m */,
-				C20E64F7265E22EC004BD51E /* YFPageMenuScrollView.h */,
-				C20E64FD265E22EC004BD51E /* YFPageMenuScrollView.m */,
-				C20E64F3265E22EC004BD51E /* YFPageMenuTracker.h */,
-				C20E64F4265E22EC004BD51E /* YFPageMenuTracker.m */,
 				095E9C021FA6F8CC0097A889 /* ChildViewControllers */,
 				DC317C5E213C0BB9000F4159 /* Images */,
 				6A92700F2179BCF400831045 /* JSBadgeView */,
@@ -257,21 +233,21 @@
 			path = JSBadgeView;
 			sourceTree = "<group>";
 		};
-		C288EF5F265E37CA00AABB2D /* YFPageMenu */ = {
+		C288EF72265E386300AABB2D /* YFPageMenu */ = {
 			isa = PBXGroup;
 			children = (
-				C288EF6B265E37D100AABB2D /* YFPageMenu.h */,
-				C288EF68265E37D000AABB2D /* YFPageMenu.m */,
-				C288EF69265E37D000AABB2D /* YFPageMenuButton.h */,
-				C288EF66265E37D000AABB2D /* YFPageMenuButton.m */,
-				C288EF61265E37CF00AABB2D /* YFPageMenuButtonItem.h */,
-				C288EF6A265E37D000AABB2D /* YFPageMenuButtonItem.m */,
-				C288EF67265E37D000AABB2D /* YFPageMenuLine.h */,
-				C288EF64265E37D000AABB2D /* YFPageMenuLine.m */,
-				C288EF62265E37CF00AABB2D /* YFPageMenuScrollView.h */,
-				C288EF63265E37D000AABB2D /* YFPageMenuScrollView.m */,
-				C288EF60265E37CF00AABB2D /* YFPageMenuTracker.h */,
-				C288EF65265E37D000AABB2D /* YFPageMenuTracker.m */,
+				C288EF73265E386300AABB2D /* YFPageMenu.h */,
+				C288EF74265E386300AABB2D /* YFPageMenuLine.h */,
+				C288EF75265E386300AABB2D /* YFPageMenuTracker.h */,
+				C288EF76265E386300AABB2D /* YFPageMenuButtonItem.h */,
+				C288EF77265E386300AABB2D /* YFPageMenuButton.h */,
+				C288EF78265E386300AABB2D /* YFPageMenuScrollView.m */,
+				C288EF79265E386300AABB2D /* YFPageMenuTracker.m */,
+				C288EF7A265E386300AABB2D /* YFPageMenuLine.m */,
+				C288EF7B265E386300AABB2D /* YFPageMenu.m */,
+				C288EF7C265E386300AABB2D /* YFPageMenuButtonItem.m */,
+				C288EF7D265E386300AABB2D /* YFPageMenuButton.m */,
+				C288EF7E265E386300AABB2D /* YFPageMenuScrollView.h */,
 			);
 			name = YFPageMenu;
 			path = ../../YFPageMenu;
@@ -424,26 +400,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C20E6501265E22EC004BD51E /* YFPageMenuLine.m in Sources */,
 				095E9C1D1FA6F8CC0097A889 /* SecondViewController.m in Sources */,
 				095E9C1B1FA6F8CC0097A889 /* FiveViewController.m in Sources */,
+				C288EF83265E386300AABB2D /* YFPageMenuButtonItem.m in Sources */,
 				095E9C191FA6F8CC0097A889 /* EightViewController.m in Sources */,
-				C20E6503265E22EC004BD51E /* YFPageMenuScrollView.m in Sources */,
 				6A9270122179BCF400831045 /* JSBadgeView.m in Sources */,
+				C288EF82265E386300AABB2D /* YFPageMenu.m in Sources */,
 				095E9C181FA6F8CC0097A889 /* BaseViewController.m in Sources */,
+				C288EF81265E386300AABB2D /* YFPageMenuLine.m in Sources */,
 				091229F91FA5F13000AEE295 /* ParentViewController.m in Sources */,
 				095E9C1E1FA6F8CC0097A889 /* SevenViewController.m in Sources */,
 				091A687D1FA1CAC100DAA561 /* ViewController.m in Sources */,
 				095E9C1A1FA6F8CC0097A889 /* FirstViewController.m in Sources */,
-				C20E64FE265E22EC004BD51E /* YFPageMenuButtonItem.m in Sources */,
 				091A687A1FA1CAC100DAA561 /* AppDelegate.m in Sources */,
-				C20E6502265E22EC004BD51E /* YFPageMenuButton.m in Sources */,
-				C20E6500265E22EC004BD51E /* YFPageMenu.m in Sources */,
-				C20E64FF265E22EC004BD51E /* YFPageMenuTracker.m in Sources */,
 				095E9C1C1FA6F8CC0097A889 /* FourViewController.m in Sources */,
+				C288EF84265E386300AABB2D /* YFPageMenuButton.m in Sources */,
+				C288EF80265E386300AABB2D /* YFPageMenuTracker.m in Sources */,
 				095E9C1F1FA6F8CC0097A889 /* SixViewController.m in Sources */,
 				091A68771FA1CAC100DAA561 /* main.m in Sources */,
 				095E9C211FA6F8CC0097A889 /* ThidViewController.m in Sources */,
+				C288EF7F265E386300AABB2D /* YFPageMenuScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
