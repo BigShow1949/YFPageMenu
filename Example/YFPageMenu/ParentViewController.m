@@ -121,6 +121,7 @@
     // 传递数组，默认选中第1个
     [pageMenu setItems:self.dataArr selectedItemIndex:0];
     pageMenu.tracker.backgroundColor = [UIColor redColor];
+
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果

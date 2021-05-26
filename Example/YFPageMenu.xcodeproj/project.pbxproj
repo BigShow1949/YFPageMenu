@@ -104,6 +104,18 @@
 		C20E64FB265E22EC004BD51E /* YFPageMenuButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenuButtonItem.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuButtonItem.h"; sourceTree = "<group>"; };
 		C20E64FC265E22EC004BD51E /* YFPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFPageMenu.h; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenu.h"; sourceTree = "<group>"; };
 		C20E64FD265E22EC004BD51E /* YFPageMenuScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFPageMenuScrollView.m; path = "../../../studycloud-ios/Medicine/Tool/YFPageMenu/YFPageMenuScrollView.m"; sourceTree = "<group>"; };
+		C288EF60265E37CF00AABB2D /* YFPageMenuTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuTracker.h; sourceTree = "<group>"; };
+		C288EF61265E37CF00AABB2D /* YFPageMenuButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuButtonItem.h; sourceTree = "<group>"; };
+		C288EF62265E37CF00AABB2D /* YFPageMenuScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuScrollView.h; sourceTree = "<group>"; };
+		C288EF63265E37D000AABB2D /* YFPageMenuScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuScrollView.m; sourceTree = "<group>"; };
+		C288EF64265E37D000AABB2D /* YFPageMenuLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuLine.m; sourceTree = "<group>"; };
+		C288EF65265E37D000AABB2D /* YFPageMenuTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuTracker.m; sourceTree = "<group>"; };
+		C288EF66265E37D000AABB2D /* YFPageMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuButton.m; sourceTree = "<group>"; };
+		C288EF67265E37D000AABB2D /* YFPageMenuLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuLine.h; sourceTree = "<group>"; };
+		C288EF68265E37D000AABB2D /* YFPageMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenu.m; sourceTree = "<group>"; };
+		C288EF69265E37D000AABB2D /* YFPageMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenuButton.h; sourceTree = "<group>"; };
+		C288EF6A265E37D000AABB2D /* YFPageMenuButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPageMenuButtonItem.m; sourceTree = "<group>"; };
+		C288EF6B265E37D100AABB2D /* YFPageMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPageMenu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +166,7 @@
 		091A68741FA1CAC100DAA561 /* YFPageMenu */ = {
 			isa = PBXGroup;
 			children = (
+				C288EF5F265E37CA00AABB2D /* YFPageMenu */,
 				091A687B1FA1CAC100DAA561 /* ViewController.h */,
 				091A687C1FA1CAC100DAA561 /* ViewController.m */,
 				091229F71FA5F13000AEE295 /* ParentViewController.h */,
@@ -242,6 +255,26 @@
 				6A9270102179BCF400831045 /* JSBadgeView.m */,
 			);
 			path = JSBadgeView;
+			sourceTree = "<group>";
+		};
+		C288EF5F265E37CA00AABB2D /* YFPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C288EF6B265E37D100AABB2D /* YFPageMenu.h */,
+				C288EF68265E37D000AABB2D /* YFPageMenu.m */,
+				C288EF69265E37D000AABB2D /* YFPageMenuButton.h */,
+				C288EF66265E37D000AABB2D /* YFPageMenuButton.m */,
+				C288EF61265E37CF00AABB2D /* YFPageMenuButtonItem.h */,
+				C288EF6A265E37D000AABB2D /* YFPageMenuButtonItem.m */,
+				C288EF67265E37D000AABB2D /* YFPageMenuLine.h */,
+				C288EF64265E37D000AABB2D /* YFPageMenuLine.m */,
+				C288EF62265E37CF00AABB2D /* YFPageMenuScrollView.h */,
+				C288EF63265E37D000AABB2D /* YFPageMenuScrollView.m */,
+				C288EF60265E37CF00AABB2D /* YFPageMenuTracker.h */,
+				C288EF65265E37D000AABB2D /* YFPageMenuTracker.m */,
+			);
+			name = YFPageMenu;
+			path = ../../YFPageMenu;
 			sourceTree = "<group>";
 		};
 		DC317C5E213C0BB9000F4159 /* Images */ = {
