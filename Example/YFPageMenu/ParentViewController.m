@@ -144,8 +144,7 @@
     pageMenu.unSelectedItemTitleColor = [UIColor redColor];
     // 设置跟踪器的颜色
     pageMenu.tracker.backgroundColor = [UIColor redColor];
-    // 设置跟踪器的高度，与pageMenu同高，这样半径就可以跟pageMenu的圆角半径一致，实际上这里设置的半径是无效的，圆角矩形内部会根据高度自动设置圆角
-    [pageMenu.tracker setTrackerHeight:pageMenuH cornerRadius:pageMenuH*0.5];
+    pageMenu.tracker.trackerHeight = pageMenuH;
     // 排列方式
     pageMenu.permutationWay = YFPageMenuPermutationWayNotScrollAdaptContent;
     pageMenu.dividingLine.hidden = YES;
@@ -306,7 +305,7 @@
     YFPageMenu *pageMenu = [YFPageMenu pageMenuWithFrame:CGRectMake(0, NaviH, screenW, pageMenuH) trackerStyle:YFPageMenuTrackerStyleLine];
     // 传递数组，默认选中第2个
     [pageMenu setItems:self.dataArr selectedItemIndex:0];
-    pageMenu.showFuntionButton = YES;
+    pageMenu.showFunctionButton = YES;
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果
@@ -326,7 +325,7 @@
     // 同时设置图片和文字，如果只想要文字，image传nil，如果只想要图片，title传nil，imagePosition和ratio传0即可
     [pageMenu setFunctionButtonContent:[YFPageMenuButtonItem itemWithTitle:@"更多" image:[UIImage imageNamed:@"Expression_1"] imagePosition:SPItemImagePositionTop] forState:UIControlStateNormal];
     [pageMenu setFunctionButtonTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13]} forState:UIControlStateNormal];
-    pageMenu.showFuntionButton = YES;
+    pageMenu.showFunctionButton = YES;
     // 设置代理
     pageMenu.delegate = self;
     // 给pageMenu传递外界的大scrollView，内部监听self.scrollView的滚动，从而实现让跟踪器跟随self.scrollView移动的效果
