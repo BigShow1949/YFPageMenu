@@ -1,0 +1,6 @@
+framework module YFPageMenu {
+  umbrella header "YFPageMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

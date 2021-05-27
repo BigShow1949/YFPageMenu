@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YFPageMenu (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YFPageMenu (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YFPageMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YFPageMenu: 71fa8b9161a082f53efcd979b349b61cc500b028
+
+PODFILE CHECKSUM: db39193d20dc8f038cefc7d99859b73a43ab2183
+
+COCOAPODS: 1.10.1

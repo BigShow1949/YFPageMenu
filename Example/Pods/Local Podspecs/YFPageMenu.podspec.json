@@ -1,0 +1,22 @@
+{
+  "name": "YFPageMenu",
+  "version": "0.1.0",
+  "summary": "A short description of YFPageMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BigShow1949/YFPageMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BigShow1949": "1029883589@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/BigShow1949/YFPageMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YFPageMenu/Classes/**/*"
+}
